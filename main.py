@@ -57,7 +57,7 @@ def startup_event():
                      ['availability_typical', 'curtailment_typical']] = False
 
     print("Running Monte Carlo simulation...")
-    pa.run(num_sim=2000)
+    pa.run(num_sim=200)
 
     # Build mc_reg dataframe
     mc_reg = pd.DataFrame(data={
